@@ -8,40 +8,69 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc font-semibold pl-2 text-[#4F6F52]">
-        <li>HTML<br />
-        <progress className="progress progress-success w-56" value="97" max="100"></progress>
-        95
-        </li>
-        <li>CSS<br />
-        <progress className="progress progress-success w-56" value="80" max="100"></progress>
-        80
-        </li>
-        <li>JavaScript<br />
-        <progress className="progress progress-success w-56" value="80" max="100"></progress>
-        80
-        </li>
-        <li>Bootstrap<br />
-        <progress className="progress progress-success w-56" value="75" max="100"></progress>
-        75
-        </li>
-        <li>TailwindCSS<br />
-        <progress className="progress progress-success w-56" value="85" max="100"></progress>
-        85
-        </li>
-        <li>React.js<br />
-        <progress className="progress progress-success w-56" value="75" max="100"></progress>
-        75
-        </li>
-        <li>Next.js<br />
-        <progress className="progress progress-success w-56" value="85" max="100"></progress>
-        85
-        </li>
-        <li>MongoDB<br />
-        <progress className="progress progress-success w-56" value="80" max="100"></progress>
-        80
-        </li>
-      </ul>
+      <ul className="grid grid-cols-3 gap-2 text-[#4F6F52] font-semibold">
+  <li className="flex flex-col items-center text-center">
+    HTML
+    <progress className="progress progress-success w-40" value="97" max="100"></progress>
+    95
+  </li>
+  <li className="flex flex-col items-center text-center">
+    CSS
+    <progress className="progress progress-success w-40" value="80" max="100"></progress>
+    80
+  </li>
+  <li className="flex flex-col items-center text-center">
+    JavaScript
+    <progress className="progress progress-success w-40" value="80" max="100"></progress>
+    80
+  </li>
+  <li className="flex flex-col items-center text-center">
+    Python
+    <progress className="progress progress-success w-40" value="100" max="100"></progress>
+    100
+  </li>
+  <li className="flex flex-col items-center text-center">
+    Data Structures
+    <progress className="progress progress-success w-40" value="75" max="100"></progress>
+    75
+  </li>
+  <li className="flex flex-col items-center text-center">
+    C++
+    <progress className="progress progress-success w-40" value="100" max="100"></progress>
+    100
+  </li>
+  <li className="flex flex-col items-center text-center">
+    Flask
+    <progress className="progress progress-success w-40" value="80" max="100"></progress>
+    80
+  </li>
+  <li className="flex flex-col items-center text-center">
+    TailwindCSS
+    <progress className="progress progress-success w-40" value="85" max="100"></progress>
+    85
+  </li>
+  <li className="flex flex-col items-center text-center">
+    React.js
+    <progress className="progress progress-success w-40" value="75" max="100"></progress>
+    75
+  </li>
+  <li className="flex flex-col items-center text-center">
+    Next.js
+    <progress className="progress progress-success w-40" value="85" max="100"></progress>
+    85
+  </li>
+  <li className="flex flex-col items-center text-center">
+    MongoDB
+    <progress className="progress progress-success w-40" value="80" max="100"></progress>
+    80
+  </li>
+  <li className="flex flex-col items-center text-center">
+    Generative AI
+    <progress className="progress progress-success w-40" value="80" max="100"></progress>
+    80
+  </li>
+</ul>
+
     )
   },
   {
@@ -59,10 +88,14 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc font-semibold pl-2 text-[#4F6F52]">
-        <li>MongoDB in Python</li>
-        <li>Python from Infosys Springboard</li>
+        <li>Artificial Intelligence From IBM</li>
         <li>Basics of Generative AI From LinkedIn Learning</li>
+        <li>Web Development From IBM</li>
+        <li>CCNA M1 and M2 From Cisco</li>
+        <li>Python from Infosys Springboard</li>
         <li>Microsoft Azure Fundamentals From LinkedIn Learning</li>
+        <li>Relational Database From IBM through edX</li>
+        <li>MongoDB in Python</li>
       </ul>
     ),
   },
