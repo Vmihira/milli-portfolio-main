@@ -43,7 +43,7 @@ const projectsData = [
       previewUrl: "https://cook-pfhm.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "PharmaGenie",
     description: "A web platform designed to streamline medicine sales and inventory management for pharmacies. Built using Flask (Python) with a user-friendly interface, it includes features like user and owner registration, a medicine sales form, and a map view using Leaflet.js for pharmacy locations. It focuses on intuitive experience with seamless transitions.",
     image: "/images/projects/img_pharmagenie.png",
@@ -51,6 +51,15 @@ const projectsData = [
     /*gitUrl: "https://github.com/Vmihira/OptiBus",*/
     previewUrl: "https://pharmagenie.onrender.com/",
 },
+  {
+    id: 5,
+    title: "AI PR Summarizer",
+    description: "Developed a project focused on tracking recent GitHub pull requests, providing AI-generated summaries for each request. Enabled efcient insights into PR content and status, streamlining review and decision-making processes. Implemented features to automate PR insights, reducing manual review time and improving workflow efficiency for team-based projects.",
+    image: "/images/projects/img_PrSummarizer.png",
+    name: ["All", "Web", "Mobile"],
+    /*gitUrl: "https://github.com/Vmihira/OptiBus",*/
+    previewUrl: "https://pr-summarizer.onrender.com/",
+  },
 ];
 
 
