@@ -8,22 +8,22 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
     {
         id: 1,
-        title: "My Portfolio",
-        description: "This is my portfolio built using Next.js. I have used Tailwind CSS and it's components in my portfolio. This portfolio helps the users know about my skills, projects and my experience. I placed different sections in my portfolio and a few of them are, About me, projects and contact me",
-        image: "/images/projects/img_portfolio.png",
-        name: ["All", "Mobile"],
-        /*gitUrl: "/",*/
-        previewUrl: "/",
+        title: "Nexus Chat",
+        description: "Developed a real-time chatroom application using React, Node.js, Express, and Socket.IO. The app allows users to create or join chat rooms, exchange messages, and view live typing indicators. It uses WebSocket-based communication and integrates with MongoDB to store messages.",
+        image: "/images/projects/img_nexuschat.png",
+        name: ["All", "Web", "Mobile"],
+        /*gitUrl: "https://vmihira.github.io/Hunger-Halters/",*/
+        previewUrl: "https://kuvaka-frontend-nine.vercel.app/",
     },
     {
         id: 2,
-        title: "Hunger halters",
-        description: "This is a website which acts as an interface between food donar with the recipients. This is a user interactive website built using HTML, CSS and JavaScript. The website provides a complete solution for food wastage.",
-        image: "/images/projects/img_hunger.png",
+        title: "PharmaGenie",
+        description: "A web platform designed to streamline medicine sales and inventory management for pharmacies. Built using Flask (Python) with a user-friendly interface, it includes features like user and owner registration, a medicine sales form, and a map view using Leaflet.js for pharmacy locations. It focuses on intuitive experience with seamless transitions.",
+        image: "/images/projects/img_pharmagenie.png",
         name: ["All", "Web"],
-        /*gitUrl: "https://vmihira.github.io/Hunger-Halters/",*/
-        previewUrl: "https://vmihira.github.io/Hunger-Halters/",
-    },
+        /*gitUrl: "https://github.com/Vmihira/OptiBus",*/
+        previewUrl: "https://pharmagenie.onrender.com/",
+      },
     {
         id: 3,
         title: "OptiBus",
@@ -33,8 +33,17 @@ const projectsData = [
         /*gitUrl: "https://github.com/Vmihira/OptiBus",*/
         previewUrl: "https://vmihira.github.io/OptiBus/",
     },
+      {
+        id: 4,
+        title: "AI PR Summarizer",
+        description: "Developed a project focused on tracking recent GitHub pull requests, providing AI-generated summaries for each request. Enabled efcient insights into PR content and status, streamlining review and decision-making processes. Implemented features to automate PR insights, reducing manual review time and improving workflow efficiency for team-based projects.",
+        image: "/images/projects/img_PrSummarizer.png",
+        name: ["All", "Web", "Mobile"],
+        /*gitUrl: "https://github.com/Vmihira/OptiBus",*/
+        previewUrl: "https://pr-summarizer.onrender.com/",
+     },
     {
-      id: 4,
+      id: 5,
       title: "Recipe Maker",
       description: "A dynamic web application built with Flask (Python) that allows users to create and customize recipes. It leverages generative AI to suggest personalized recipes based on user preferences. The interface features an image and text layout with responsive design, periodic quote updates, and a user-friendly experience.",
       image: "/images/projects/img_recipemaker.png",
@@ -42,23 +51,24 @@ const projectsData = [
       /*gitUrl: "https://github.com/Vmihira/OptiBus",*/
       previewUrl: "https://cook-pfhm.onrender.com/",
   },
+    {
+        id: 6,
+        title: "Hunger halters",
+        description: "This is a website which acts as an interface between food donar with the recipients. This is a user interactive website built using HTML, CSS and JavaScript. The website provides a complete solution for food wastage.",
+        image: "/images/projects/img_hunger.png",
+        name: ["All", "Web"],
+        /*gitUrl: "https://vmihira.github.io/Hunger-Halters/",*/
+        previewUrl: "https://vmihira.github.io/Hunger-Halters/",
+    },
+
   {
-    id: 4,
-    title: "PharmaGenie",
-    description: "A web platform designed to streamline medicine sales and inventory management for pharmacies. Built using Flask (Python) with a user-friendly interface, it includes features like user and owner registration, a medicine sales form, and a map view using Leaflet.js for pharmacy locations. It focuses on intuitive experience with seamless transitions.",
-    image: "/images/projects/img_pharmagenie.png",
-    name: ["All", "Web"],
-    /*gitUrl: "https://github.com/Vmihira/OptiBus",*/
-    previewUrl: "https://pharmagenie.onrender.com/",
-},
-  {
-    id: 5,
-    title: "AI PR Summarizer",
-    description: "Developed a project focused on tracking recent GitHub pull requests, providing AI-generated summaries for each request. Enabled efcient insights into PR content and status, streamlining review and decision-making processes. Implemented features to automate PR insights, reducing manual review time and improving workflow efficiency for team-based projects.",
-    image: "/images/projects/img_PrSummarizer.png",
-    name: ["All", "Web", "Mobile"],
-    /*gitUrl: "https://github.com/Vmihira/OptiBus",*/
-    previewUrl: "https://pr-summarizer.onrender.com/",
+    id: 7,
+    title: "My Portfolio",
+    description: "This is my portfolio built using Next.js. I have used Tailwind CSS and it's components in my portfolio. This portfolio helps the users know about my skills, projects and my experience. I placed different sections in my portfolio and a few of them are, About me, projects and contact me",
+    image: "/images/projects/img_portfolio.png",
+    name: ["All", "Mobile"],
+    /*gitUrl: "/",*/
+    previewUrl: "/",
   },
 ];
 
